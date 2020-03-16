@@ -1860,6 +1860,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424303607}
   - component: {fileID: 424303606}
+  - component: {fileID: 424303608}
   m_Layer: 8
   m_Name: PostPro
   m_TagString: Untagged
@@ -1898,6 +1899,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &424303608
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424303605}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &433741981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3633,6 +3653,8 @@ PlayableDirector:
     value: {fileID: 1989768429}
   - key: {fileID: 114233851096845012, guid: 6a7fddeaf66b58246a79c356dc761cca, type: 2}
     value: {fileID: 1989768428}
+  - key: {fileID: 114748818692033924, guid: 6a7fddeaf66b58246a79c356dc761cca, type: 2}
+    value: {fileID: 424303608}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1143566294
